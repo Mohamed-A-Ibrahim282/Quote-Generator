@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8 js</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container vh-100 py-5">
+        <div class="row h-100">
+            <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center">
+                <span>Quote</span>
+                <h1 class="fw-bold">Generator</h1>
+            </div>
+
+            <div class="col-lg-8 d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="quote-container bg-white shadow-lg rounded-3">
+                    <h2 class="my-3 text-black position-relative">Quote of the Day</h2>
+
+                    <p id="quotes" class="text-black  mt-5 mb-2 lead fw-semibold"></p>
+                    <p id="writer" class="text-black mb-5 lead fw-bold text-uppercase fst-italic"></p>
+
+                    <div class="my-3 w-100 d-flex justify-content-between">
+                        <button onclick="previousBtn()" type="button" class="btn1 d-flex align-items-center justify-content-center fw-semibold">
+                            <i class="fa-solid fa-arrow-left me-2"></i> Previous
+                        </button>
+
+                        <button onclick="nextBtn()" type="button" class="btn2 d-flex align-items-center justify-content-center fw-semibold">
+                            Next <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
